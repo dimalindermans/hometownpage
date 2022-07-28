@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image: url(./images/mezaparks-background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+
+.main-heading {
+    font-family: 'Josefin Sans', sans-serif;;
+    font-size: 50px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: 36.8px;
+    color: white;
+    margin-top: 250px;
+    margin-bottom: 15px;
+    background-color: #A8763E;
+    border-radius: 6px;
+    padding: 28px 40px 16px 40px;
+}
+
+.second-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    color: white;
+    background-color: #6F1A07;
+    padding: 12px 35px;
+    border-radius: 6px;
+    margin-top: 0px;
+    margin-bottom: 250px;
+}
+
+#activities {
+    background: #ECF0F1;
+
+}
+
+#activities h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 18px;
+    color: #2B2118;
+}
+
+
+#activities h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #2B2118;
+}
+
+#activities p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    
+    
+    color: #2B2118;;
+}
+
+
+.first-activity, .second-activity, .third-activity {
+    border-radius: 50%;
+}
+
+.images-activities {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+}
+
+.image-and-text-first {
+    width: 155px;
+}
+
+.image-and-text-second {
+    width: 155px;
+}
+
+.image-and-text-third {
+    width: 155px;
+}
+
+
+.guidecard {
+    display: flex;
+    justify-content: space-around;
+   
+
+    background: #F7F3E3;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    width: 450px;
+    margin: 50px auto;
+    padding: 23px 11px 22px 13px;
+}
+
+.guide-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #2B2118;;
+}
+
+.guide-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #2B2118;;
+    padding: 10px;
+    
+}
+
+.guide-name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #2B2118;;
+}
+
+.guide-image {
+    border-radius: 10px;
+    width: 230px;
+}
